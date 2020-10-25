@@ -8,7 +8,11 @@ for(var i in obj){
   console.log(i +":"+obj[i])  
 }
 
-// 返回Obj value数组
+/*
+  * key value
+    Object.keys(obj) value :返回一个数组
+  * ["YANG",22,"geme"]
+*/
 Object.keys(obj).map(i=>{
   console.log(i+":"+obj[i]);
 })
